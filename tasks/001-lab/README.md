@@ -8,7 +8,7 @@ Created repo, set up the structure, read book chapter 1
 
 # What broke and how I fixed it
 
-Nothing broke, there was an error in devcontainer earlier because AI mode gave me wrong image source but fixed now from Gemini's output
+The image source in devcontainer was wrong earlier so the right image couldn't be fetched and I got an error. Then I switched to a stale ubuntu-24.04 image and now I'm finally at the right ubuntu24.04 image, which gets updates.
 
 # What AI did
 
