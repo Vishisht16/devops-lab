@@ -1,6 +1,6 @@
 {
   "name": "Ubuntu 24.04 with ShellCheck",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu-24.04",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu24.04",
 
   // Automatically install ShellCheck during container setup
   "updateContentCommand": "sudo apt-get update && sudo apt-get install -y shellcheck",
