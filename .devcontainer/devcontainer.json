@@ -1,0 +1,21 @@
+{
+  "name": "Ubuntu 24.04 with ShellCheck",
+  "image": "://microsoft.com",
+  
+  // Customizations applied when the container/codespace opens in VS Code
+  "customizations": {
+    "vscode": {
+      // Enforce the default VS Code Dark theme on startup
+      "settings": {
+        "workbench.colorTheme": "Default Dark Modern"
+      },
+      // Automatically install the ShellCheck extension inside the environment
+      "extensions": [
+        "timonwong.shellcheck"
+      ]
+    }
+  },
+
+  // Native Linux tool installation during the container creation lifecycle
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y shellcheck"
+}
